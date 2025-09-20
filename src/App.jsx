@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 // Tus componentes
-import Contador from './components/contador'
+
 import HomePage from './pages/HomePage'
 import PaginaSemaforo from './pages/PaginaSemaforo'  // 👈 agrega este archivo
 import Nav from './components/Nav'                   // 👈 agrega este archivo
@@ -18,7 +18,7 @@ function App() {
   return (
     <>
       <Nav />
-      <Contador />
+    
 
       <Routes>
         <Route path="/home" element={<HomePage />} />
