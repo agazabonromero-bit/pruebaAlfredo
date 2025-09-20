@@ -12,8 +12,7 @@ function Contador() {
       <button onClick={() => {setContador(contador + 10)}}>
         dale click
       </button>
-      <div style={{width:"400px", color:"white", height:"200px", 
-            backgroundColor: cambio}}>
+      <div style={{width:"400px", color:"white", height:"200px", backgroundColor: "cambio"}}>
         Semaforo
       </div>
     </div>
